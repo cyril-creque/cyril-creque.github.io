@@ -28,7 +28,7 @@ twitter_username: cyril
 github_username:  cyril-creque
 
 # Build settings
-remote_theme: cyril-creque/al-folio 
+theme: minima 
 plugins:
   - jekyll-feed
 
