@@ -11,4 +11,4 @@ Outside of physics, I enjoy listening to music and lifting weights. In general, 
 
 <h1 style = "fontsize:7vw"><a href = "file:///Cyril_CV.pdf">CV</a>|<a href = "https://arxiv.org/search/?searchtype=author&query=Creque-Sarbinowski%2C+C&order=-announced_date_first&size=50&abstracts=show">arXiv</a>|<a href = "https://orcid.org/0000-0002-6197-5421">ORCID</a>
 
-![Temporary Picture of Me](/temp_pic.png) 
+<img src = "temp_pic.png" alt = "drawing" width="200"/> 
