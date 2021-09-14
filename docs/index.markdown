@@ -25,7 +25,7 @@ layout: home
 
 <div class="row">
   <div class="column">
-   <img src = "temp_pic.png" alt = "drawing" width="400">
+   <img src = "temp_pic.png" style = "border-radius: 50%; display:block; margin:auto; width:90%" alt = "drawing" width="400">
 <h1>
 <span class = "fontsize:7vw">
 <span class = "text-align:center">
