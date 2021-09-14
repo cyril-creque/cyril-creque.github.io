@@ -32,7 +32,7 @@ layout: home
 <h1>
 <span class = "fontsize:7vw">
 <span class = "text-align:center">
-&nbsp;&nbsp<a href = "/Cyril_CV.pdf">CV</a>|<a href = "https://arxiv.org/search/?searchtype=author&query=Creque-Sarbinowski%2C+C&order=-announced_date_first&size=50&abstracts=show">arXiv</a>|<a href = "https://orcid.org/0000-0002-6197-5421">ORCID</a>
+&nbsp<a href = "/Cyril_CV.pdf">CV</a>|<a href = "https://arxiv.org/search/?searchtype=author&query=Creque-Sarbinowski%2C+C&order=-announced_date_first&size=50&abstracts=show">arXiv</a>|<a href = "https://orcid.org/0000-0002-6197-5421">ORCID</a>
 </span>
 </span>
 </h1>
