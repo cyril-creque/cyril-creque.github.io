@@ -44,7 +44,7 @@ Q. What about the winter - isn't it cold?
 A. I'm pretty tolerant, though I still hate it.
 </p>
 <p style = "font-family:Computer Modern">
-Q. But the salt on the ground?
+Q. But the salt?
 </p>
 <p style = "font-family:Computer Modern">
 A. You must have a dog - yeah salt is pretty annoying.
