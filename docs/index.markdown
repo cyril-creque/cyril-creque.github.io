@@ -26,9 +26,9 @@ layout: home
 <div class="row">
   <div class="column">
    <img src = "temp_pic.png" style = "border-radius: 50%; display:block; margin:auto; width:90%" alt = "drawing" width="400" height="400">
-<h1 class = "fontsize:12px">
+<h2 class = "fontsize:12px">
 <a href = "/Cyril_CV.pdf">CV</a>|<a href = "https://arxiv.org/search/?searchtype=author&query=Creque-Sarbinowski%2C+C&order=-announced_date_first&size=50&abstracts=show">arXiv</a>|<a href = "https://inspirehep.net/literature?sort=mostrecent&size=25&page=1&q=a%20C.Creque.Sarbinowski.1">iNSPIRE</a>|<a href = "https://orcid.org/0000-0002-6197-5421">ORCID</a>
-</h1>
+</h2>
 </div>
 <div class="column">
 <p>
