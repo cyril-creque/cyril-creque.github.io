@@ -4,13 +4,36 @@
 
 layout: home
 ---
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+</style>
+</head>
+
 <div class="row">
   <div class="column">
    <img src = "temp_pic.png" alt = "drawing" width="400">
 <h1>
 <span class = "fontsize:7vw">
 <span class = "text-align:center">
-&nbsp;&nbsp;&nbsp;&nbsp;<a href = "/Cyril_CV.pdf">CV</a>|<a href = "https://arxiv.org/search/?searchtype=author&query=Creque-Sarbinowski%2C+C&order=-announced_date_first&size=50&abstracts=show">arXiv</a>|<a href = "https://orcid.org/0000-0002-6197-5421">ORCID</a>
+<a href = "/Cyril_CV.pdf">CV</a>|<a href = "https://arxiv.org/search/?searchtype=author&query=Creque-Sarbinowski%2C+C&order=-announced_date_first&size=50&abstracts=show">arXiv</a>|<a href = "https://orcid.org/0000-0002-6197-5421">ORCID</a>
 </span>
 </span>
 </h1>
