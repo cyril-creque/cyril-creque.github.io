@@ -5,12 +5,14 @@
 layout: home
 ---
 <head>
-<style>
+<style>*{
+  box-sizing: border-box;
+}
 
 .column {
   float: left;
   width: 50%;
-  padding: 10px;
+  padding: 0px;
 }
 
 .row:after {
