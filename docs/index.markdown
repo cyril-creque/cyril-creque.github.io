@@ -5,18 +5,14 @@
 layout: home
 ---
 <head>
-<style>*{
-  box-sizing: border-box;
-}
+<style>
 
-/* Create two equal columns that floats next to each other */
 .column {
   float: left;
   width: 50%;
   padding: 10px;
 }
 
-/* Clear floats after the columns */
 .row:after {
   content: "";
   display: table;
