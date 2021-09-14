@@ -28,7 +28,7 @@ layout: home
 </head>
 <div class="row">
   <div class="column">
-<img src = "temp_pic.png" alt = "drawing" width="300", height = "600"/>
+<img src = "temp_pic.png" alt = "drawing" width="300" height = "600"/>
 </div>
 <div class="column">
 <p>
