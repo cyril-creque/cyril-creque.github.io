@@ -12,7 +12,7 @@ layout: home
 .column {
   float: left;
   width: 50%;
-  padding: 10 px;
+  padding: 10px;
 }
 
 .row:after {
