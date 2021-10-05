@@ -1,6 +1,6 @@
 ---
 layout: page
-title: FAQ
+#title: FAQ
 permalink: /FAQ/
 ---
 <head>
