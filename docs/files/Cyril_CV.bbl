@@ -1,0 +1,84 @@
+\providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
+
+\bibitem{Creque-Sarbinowski:2023wmb}
+\textbf{C.~Creque-Sarbinowski}, S.~Alexander, M.~Kamionkowski, and O.~Philcox,
+  ``{Parity-Violating Trispectrum from Chern-Simons Gravity},''
+  \href{http://arxiv.org/abs/2303.04815}{{\ttfamily arXiv:2303.04815
+  [astro-ph.CO]}}.
+
+\bibitem{Zhou:2022nmt}
+B.~Zhou, L.~Reali, E.~Berti, M.~\c{C}al\i{}\c{s}kan,
+  \textbf{C.~Creque-Sarbinowski}, M.~Kamionkowski, and B.~S. Sathyaprakash,
+  ``{Subtracting Compact Binary Foregrounds to Search for Subdominant
+  Gravitational-Wave Backgrounds in Next-Generation Ground-Based
+  Observatories},'' \href{http://arxiv.org/abs/2209.01310}{{\ttfamily
+  arXiv:2209.01310 [gr-qc]}}.
+
+\bibitem{Zhou:2022otw}
+B.~Zhou, L.~Reali, E.~Berti, M.~\c{C}al\i{}\c{s}kan,
+  \textbf{C.~Creque-Sarbinowski}, M.~Kamionkowski, and B.~S. Sathyaprakash,
+  ``{Compact Binary Foreground Subtraction in Next-Generation Ground-Based
+  Observatories},'' \href{http://arxiv.org/abs/2209.01221}{{\ttfamily
+  arXiv:2209.01221 [gr-qc]}}.
+
+\bibitem{Alexander:2022cow}
+S.~Alexander and \textbf{C.~Creque-Sarbinowski}, ``{Chern-Simons Gravity and
+  Neutrino Self-Interactions},''
+  \href{http://arxiv.org/abs/2207.05094}{{\ttfamily arXiv:2207.05094
+  [hep-ph]}}.
+
+\bibitem{Creque-Sarbinowski:2022mex}
+\textbf{C.~Creque-Sarbinowski}, J.~Hyde, and M.~Kamionkowski, ``{High-Energy
+  Astrophysical Neutrinos from Cosmic Strings},''
+  \href{http://arxiv.org/abs/2206.06377}{{\ttfamily arXiv:2206.06377
+  [hep-ph]}}.
+
+\bibitem{Creque-Sarbinowski:2021nil}
+\textbf{C.~Creque-Sarbinowski}, M.~Kamionkowski, and B.~Zhou, ``{Seeking
+  neutrino emission from AGN through temporal and spatial cross-correlation},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.105.123035}{{\em Phys. Rev. D}
+  {\bfseries 105} no.~12, (2022) 123035},
+  \href{http://arxiv.org/abs/2111.08012}{{\ttfamily arXiv:2111.08012
+  [astro-ph.HE]}}.
+
+\bibitem{Creque-Sarbinowski:2021xwh}
+\textbf{C.~Creque-Sarbinowski}, M.~Kamionkowski, and B.~Zhou, ``{AGN
+  variability in the age of VRO},''
+  \href{http://dx.doi.org/10.3847/1538-4357/ac9eb2}{{\em Astrophys. J.}
+  {\bfseries 941} (2022) 41}, \href{http://arxiv.org/abs/2110.13149}{{\ttfamily
+  arXiv:2110.13149 [astro-ph.GA]}}.
+
+\bibitem{Creque-Sarbinowski:2020qhz}
+\textbf{C.~Creque-Sarbinowski}, J.~Hyde, and M.~Kamionkowski, ``{Resonant
+  neutrino self-interactions},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.103.023527}{{\em Phys. Rev. D}
+  {\bfseries 103} no.~2, (2021) 023527},
+  \href{http://arxiv.org/abs/2005.05332}{{\ttfamily arXiv:2005.05332
+  [hep-ph]}}.
+
+\bibitem{Creque-Sarbinowski:2019mcm}
+\textbf{C.~Creque-Sarbinowski}, L.~Ji, E.~D. Kovetz, and M.~Kamionkowski,
+  ``{Direct millicharged dark matter cannot explain the EDGES signal},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.100.023528}{{\em Phys. Rev. D}
+  {\bfseries 100} no.~2, (2019) 023528},
+  \href{http://arxiv.org/abs/1903.09154}{{\ttfamily arXiv:1903.09154
+  [astro-ph.CO]}}.
+
+\bibitem{Creque-Sarbinowski:2018ebl}
+\textbf{C.~Creque-Sarbinowski} and M.~Kamionkowski, ``{Searching for Decaying
+  and Annihilating Dark Matter with Line Intensity Mapping},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.98.063524}{{\em Phys. Rev. D}
+  {\bfseries 98} no.~6, (2018) 063524},
+  \href{http://arxiv.org/abs/1806.11119}{{\ttfamily arXiv:1806.11119
+  [astro-ph.CO]}}.
+
+\bibitem{Creque-Sarbinowski:2016wue}
+\textbf{C.~Creque-Sarbinowski}, S.~Bird, and M.~Kamionkowski,
+  ``{Cross-correlation between thermal Sunyaev-Zeldovich effect and the
+  integrated Sachs-Wolfe effect},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.94.063519}{{\em Phys. Rev. D}
+  {\bfseries 94} no.~6, (2016) 063519},
+  \href{http://arxiv.org/abs/1606.00839}{{\ttfamily arXiv:1606.00839
+  [astro-ph.CO]}}.
+
+\end{thebibliography}\endgroup
