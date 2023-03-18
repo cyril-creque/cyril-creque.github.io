@@ -35,10 +35,10 @@ layout: home
     }
 </style>
 </head>
- <img id = "main" src = "headshot.jpeg" style = "display: block;height: auto; margin:auto; width:55%" alt = "Picture of Cyril">
+ <img id = "main" src = "files/photos/headshot.jpeg" style = "display: block;height: auto; margin:auto; width:55%" alt = "Picture of Cyril">
 <p>
 <h2 style = "text-align: center; font-family: Computer Modern">
-<a href = "/Cyril_CV.pdf">CV</a> | <a href = "https://ui.adsabs.harvard.edu/search/q=author%3A%22Creque-Sarbinowski%2C%20Cyril%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">ADS</a> | <a href = "https://arxiv.org/search/?searchtype=author&query=Creque-Sarbinowski%2C+C&order=-announced_date_first&size=50&abstracts=show">arXiv</a> | <a href = "https://inspirehep.net/authors/1920857">iNSPIRE</a> | <a href = "https://orcid.org/0000-0002-6197-5421">ORCID</a>
+<a href = "files/Cyril_CV.pdf">CV</a> | <a href = "https://ui.adsabs.harvard.edu/search/q=author%3A%22Creque-Sarbinowski%2C%20Cyril%22&sort=date%20desc%2C%20bibcode%20desc&p_=0">ADS</a> | <a href = "https://arxiv.org/search/?searchtype=author&query=Creque-Sarbinowski%2C+C&order=-announced_date_first&size=50&abstracts=show">arXiv</a> | <a href = "https://inspirehep.net/authors/1920857">iNSPIRE</a> | <a href = "https://orcid.org/0000-0002-6197-5421">ORCID</a>
 </h2>
 </p>
 <p style = "font-family: Computer Modern">

@@ -1,0 +1,94 @@
+\documentclass[11pt,a4paper, roman]{moderncv}
+\usepackage{verbatim}
+%% ModernCV themes
+
+\moderncvcolor{black}
+\moderncvstyle{banking}
+\renewcommand{\familydefault}{\sfdefault}
+\nopagenumbers{}
+\usepackage[square,sort,comma]{natbib}
+%% Character encoding
+\usepackage[utf8]{inputenc}
+
+%% Adjust the page margins
+\usepackage[scale=0.75]{geometry}
+
+%hyperref
+\usepackage[hyperfootnotes=false]{hyperref}
+\hypersetup{colorlinks=true, linkcolor=magenta, filecolor=cyan, urlcolor=blue}
+
+\newcounter{bibcount}
+%% Personal data
+\firstname{Cyril}
+\familyname{Creque-Sarbinowski}
+\address{220 West 98th Street, Apartment 6K}{New York, NY 10025} 
+\mobile{+1~(216)~282~4561} 
+\email{ccreque@flatironinstitute.org} 
+
+%%------------------------------------------------------------------------------
+%% Content
+%%------------------------------------------------------------------------------
+\begin{document}
+\makecvtitle
+
+\section{Education}
+\cventry{2017-2022}{Ph.D in Physics \& Astronomy}{Johns Hopkins University (JHU)}{Baltimore, MD}{}{Advisor: Marc Kamionkowski}  % arguments 3 to 6 can be left empty
+\cventry{2013-2017}{B.S. in Physics and Mathematics}{Massachusetts Institute of Technology (MIT)}{Cambridge, MA}{}{}  % arguments 3 to 6 can be left empty
+%% ...
+\section{Positions Held}
+\cventry{Aug. 2022-Present}{Flatiron Research Fellow}{Center for Computational Astrophysics (CCA)}{New York, NY}{}{}
+\cventry{Sep. 2022-Present}{Visiting Scholar}{New York University (NYU)}{New York, NY}{}{}
+\section{Teaching}
+\cventry{Spring 2022}{Virtual Guest Lecturer, \href{cyril-creque.github.io/files/teaching/Moravian_PHYS111_Mechanics_SHO.pdf}{Slides}}{PHYS 111: Introductory Physics}{Moravian University}{}{}
+\cventry{Spring 2022}{Guest Lecturer, \href{cyril-creque.github.io/files/teaching/Brown_PHYS2300_QFTI_Neutrinos.pdf}{Lecture Notes}}{PHYS2300: Quantum Theory of Fields I}{Brown University}{}{}
+\cventry{Fall 2017}{Teaching Assistant}{AS.171.107 General Physics for Physical Science Majors}{JHU}{}{Lecturer: Prof. Robert Leheny \& Prof. Rosemary Wyse}
+\cventry{Fall 2017}{Section Head}{AS.173.111 General Physics Laboratory I}{JHU}{}{}
+%% ...
+\section{Awards, Scholarships, Fellowships}
+\cventry{2019-2022}{Graduate Research Fellow}{National Science Foundation}{}{}{}
+\cventry{2013-2022}{Scholar}{Gates Millenium Scholars Program}{}{}{}
+\cventry{2017-2019}{Fellow}{Kelly Miller Fellowship}{}{}{}
+%% ...
+%% A publications list
+\section{Conferences, Workshops, Seminars}
+* = \textit{Invited}, Hyperlinks to PDF of slides\\
+\cvitemwithcomment{Seminar*}{Joint Tufts/MIT Cosmology Seminar}{Feb. 2023}
+\cvitemwithcomment{Seminar*}{Brown University IDEA Seminar}{Feb. 2023}
+\cvitemwithcomment{Conference}{National Society of Black Physicists Annual Conference}{Nov. 2022}
+\cvitemwithcomment{Workshop*}{Guest Expert, Cosmology Talks Parity-Violation Mini-Workshop}{Nov. 2022}
+\cvitemwithcomment{Seminar*}{Imperial College London}{Nov. 2022}
+\cvitemwithcomment{Talk*}{Ohio State University Astroparticle Lunch Talk}{Sept. 2022}
+\cvitemwithcomment{Talk}{Princeton Universty/Institute of Advanced Study Lunch Series}{Sept. 2022}
+\cvitemwithcomment{Workshop (Organizer)}{NeXus Workshop}{Aug. 2022}
+%\cvitemwithcomment{}{Talk Title: Chern-Simons Gravity and Neutrino Self-Interactions}{}
+\cvitemwithcomment{Workshop}{Aspen Center for Physics}{May-June 2022}
+\cvitemwithcomment{Seminar*}{Brown University}{March 2022}
+%\cvitemwithcomment{}{Signatures of Electromagnetic Charge in the Universe}{}
+\cvitemwithcomment{Workshop}{NeXus Workshop}{June 2021}
+%\cvitemwithcomment{}{Talk Title: High Energy Astrophysical Neutrinos (HEAN)}{}
+\cvitemwithcomment{Conference}{Pheno 2021}{May 2021}
+\cvitemwithcomment{Conference}{XIX International Workshop on Neutrino Telescopes
+}{Feb. 2021}
+\cvitemwithcomment{Conference}{Neutrino\ 2020}{Jun. 2020}
+\cvitemwithcomment{Seminar*}{Bowdoin College}{Nov. 2019}
+%\cvitemwithcomment{}{Talk Title: Direct Millicharge Dark Matter Cannot Explain the Anomalous EDGES Signal}{}
+\cvitemwithcomment{Conference}{National Society of Black Physicists Annual Conference}{Nov. 2019}
+\cvitemwithcomment{Conference}{Cosmic Controversies, Kavli Institute  for Cosmological Physics}{Oct. 2019}
+\cvitemwithcomment{Workshop}{Novel Ideas for Dark Matter, Princeton Center for Theoretical Science}{Jan. 2019}
+\cvitemwithcomment{Conference}{National Society of Black Physicists Annual Conference}{Nov. 2018}
+%\cvitemwithcomment{}{Talk Title: Searching for Decaying and Annihilating Dark Matter with Line Intensity Mapping}{}
+\cvitemwithcomment{Conference}{Identification of Dark Matter, Brown University}{Jul. 2018}
+%\cvitemwithcomment{}{Talk Title: Searching for Decaying Particles with Line Intensity Mapping}{}
+\cvitemwithcomment{Workshop}{Second Annual Line-Intensity Mapping Workshop (IM@Hopkins),}{Jul. 2017}
+\cvitemwithcomment{}{\phantom{Conference:}Johns Hopkins University}{}
+\cvitemwithcomment{Conference}{Neutrinos and Light Particles in Cosmology, }{Jun. 2016}
+\cvitemwithcomment{}{\phantom{Conference:\ \ }Berkeley Center for Cosmological Physics}{}
+\cvitemwithcomment{Conference}{National Society of Black Physicists Annual Conference}{Feb. 2015}
+
+\nocite{*}
+\bibliography{inspire}
+\bibliographystyle{hunsrt}
+
+
+
+\end{document}
