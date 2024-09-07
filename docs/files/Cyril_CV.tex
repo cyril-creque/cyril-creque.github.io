@@ -1,10 +1,12 @@
-\documentclass[11pt,a4paper, roman]{moderncv}
-\usepackage{verbatim}
+\PassOptionsToPackage{pdfpagelabels=false}{hyperref}
+\documentclass[10pt,a4paper, roman]{moderncv}
+\usepackage{verbatim, xcolor}
 %% ModernCV themes
 
 \moderncvcolor{black}
 \moderncvstyle{banking}
-\renewcommand{\familydefault}{\sfdefault}
+\setmainfont{Latin Modern Roman}
+\renewcommand{\familydefault}{\rmdefault}
 \nopagenumbers{}
 \usepackage[square,sort,comma]{natbib}
 %% Character encoding
@@ -12,84 +14,192 @@
 
 %% Adjust the page margins
 \usepackage[scale=0.75]{geometry}
+%\usepackage{cm}
+%\usepackage[T1]{fontenc}
+%\renewcommand{\rmdefault}{lmodern}
+%\renewcommand{\itdefault}{cm}
+
+% Redefine cvitemwithcomment to use fixed and flexible columns 
+\usepackage{tabularx}
+\renewcommand*{\cvitemwithcomment}[3]{% 
+\parbox{\textwidth}{% 
+\begin{tabularx}{\textwidth}{@{} p{1.0in} X r @{}} #1 & #2 & \textit{#3} \end{tabularx}% 
+}% 
+}
+
+% Define a custom command for the reference tables
+\newcommand{\referenceentry}[7]{
+  \begin{tabularx}{\textwidth}{l X}
+    \textbf{#1} & \\ % Name
+    \textit{#2} & \\ % Relation
+    #3 & \\ % Institution
+    #4 & \\ % Address Line 1
+    #5 & \\ % Address Line 2
+    \textit{#6} & \\ % Telephone
+    #7 & \\ % Email
+  \end{tabularx}
+}
+
+%Change publications title
+\renewcommand\refname{Publications {\small \textit{\textmd{[13 ref. journal pub. (10 1st-author) +1 submitted, 300+ citations, h-index: 8]}}}}
 
 %hyperref
 \usepackage[hyperfootnotes=false]{hyperref}
-\hypersetup{colorlinks=true, linkcolor=magenta, filecolor=cyan, urlcolor=blue}
+\definecolor{mutedblue}{RGB}{20, 40, 160}
+\definecolor{mutedred}{RGB}{160, 76, 83}
+\definecolor{mutedgreen}{RGB}{34, 110, 80}
+\hypersetup{colorlinks=true, linkcolor=mutedblue, filecolor=cyan, urlcolor=mutedblue}
 
+
+%New (c)olor href command
+\newcommand{\chref}[3][mutedblue]{\href{#2}{\color{#1}{#3}}}
+%Shortcut for referring to myy github page.
+\newcommand{\chrefccs}[2]{\chref[mutedred]{https://cyril-creque.github.io/#1}{#2}}
 \newcounter{bibcount}
 %% Personal data
 \firstname{Cyril}
 \familyname{Creque-Sarbinowski}
 \address{220 West 98th Street, Apartment 6K}{New York, NY 10025} 
-\mobile{+1~(216)~282~4561} 
+\mobile{+1~(216)~282-4561}
 \email{ccreque@flatironinstitute.org} 
-
 %%------------------------------------------------------------------------------
 %% Content
 %%------------------------------------------------------------------------------
 \begin{document}
 \makecvtitle
-
+\vspace{-2.5em}
+\begin{center}
+\textcolor{mutedblue}{\rule{0.5cm}{0.2cm}} \textcolor{black}{External Resource}
+\hspace{0.8cm}
+\textcolor{mutedred}{\rule{0.5cm}{0.2cm}} \textcolor{black}{Slides/Notes}
+\hspace{0.8cm}
+\textcolor{mutedgreen}{\rule{0.5cm}{0.2cm}} \textcolor{black}{Paper}
+\end{center}
 \section{Education}
 \cventry{2017-2022}{Ph.D in Physics \& Astronomy}{Johns Hopkins University (JHU)}{Baltimore, MD}{}{Advisor: Marc Kamionkowski}  % arguments 3 to 6 can be left empty
-\cventry{2013-2017}{B.S. in Physics and Mathematics}{Massachusetts Institute of Technology (MIT)}{Cambridge, MA}{}{}  % arguments 3 to 6 can be left empty
+\cventry{2013-2017}{B.S. in Physics \& Mathematics}{Massachusetts Institute of Technology (MIT)}{Cambridge, MA}{}{}  % arguments 3 to 6 can be left empty
 %% ...
 \section{Positions Held}
-\cventry{Aug. 2022-Present}{Flatiron Research Fellow}{Center for Computational Astrophysics (CCA)}{New York, NY}{}{}
-\cventry{Sep. 2022-Present}{Visiting Scholar}{New York University (NYU)}{New York, NY}{}{}
-\section{Teaching}
-\cventry{Spring 2022}{Virtual Guest Lecturer, \href{https://cyril-creque.github.io/files/teaching/Moravian_PHYS111_Mechanics_SHO.pdf}{Slides}}{PHYS 111: Introductory Physics}{Moravian University}{}{}
-\cventry{Spring 2022}{Guest Lecturer, \href{https://cyril-creque.github.io/files/teaching/Brown_PHYS2300_QFTI_Neutrinos.pdf}{Lecture Notes}}{PHYS2300: Quantum Theory of Fields I}{Brown University}{}{}
-\cventry{Fall 2017}{Teaching Assistant}{AS.171.107 General Physics for Physical Science Majors}{JHU}{}{Lecturer: Prof. Robert Leheny \& Prof. Rosemary Wyse}
-\cventry{Fall 2017}{Section Head}{AS.173.111 General Physics Laboratory I}{JHU}{}{}
-%% ...
+\cventry{August 2022-Present}{Flatiron Research Fellow}{Center for Computational Astrophysics (CCA)}{New York, NY}{}{}
+\cventry{September 2022- September 2024}{Visiting Scholar}{New York University (NYU)}{New York, NY}{}{}
 \section{Awards, Scholarships, Fellowships}
 \cventry{2019-2022}{Graduate Research Fellow}{National Science Foundation}{}{}{}
 \cventry{2013-2022}{Scholar}{Gates Millenium Scholars Program}{}{}{}
-\cventry{2017-2019}{Fellow}{Kelly Miller Fellowship}{}{}{}
+\cventry{2017-2019}{Fellow}{JHU Kelly Miller Fellowship}{}{}{}
+%% ...
+\section{Teaching/Outreach}
+\cventry{March 2024-Present}{Chief Facilitator \& Mentor, Developed Curriculum \chrefccs{teaching/test}{[Sample]}}{\chref[mutedblue]{https://soundplusscience.com/about-us/}{Sound Plus Science}}{Civic Hall}{}{}
+\cventry{September 2023, 2024}{Flatiron Institute Booth Staff}{\chref[mutedblue]{https://www.gemfellowship.org/about-the-annual-conference/}{GEM Annual Conference}}{}{}{}{}
+\cventry{May 2023}{\chrefccs{teaching/Hunter_College_Guest_Lecture.pdf}{Guest Lecturer}}{\chref[mutedblue]{https://hunter-undergraduate.catalog.cuny.edu/courses/0227801}{ASTRO 10000: Basic Concepts in Astronomy}}{Hunter College}{}{}
+\cventry{Spring 2022}{\chrefccs{teaching/Moravian_PHYS111_Mechanics_SHO.pdf}{Virtual Guest Lecturer}}{\chref[mutedblue]{https://www.moravian.edu/catalog/courses/physics-and-earth-science}{PHYS 111: Introductory Physics}}{Moravian University}{}{}
+\cventry{Spring 2022}{\chrefccs{teaching/Brown_PHYS2300_QFTI_Neutrinos.pdf}{Guest Lecturer}}{PHYS2300: Quantum Theory of Fields I}{Brown University}{}{}
+\cventry{Fall 2017}{Teaching Assistant}{AS.171.107 General Physics for Physical Science Majors}{JHU}{}{Lecturer: Prof. Robert Leheny \& Prof. Rosemary Wyse}
+\cventry{Fall 2017}{Section Head}{AS.173.111 General Physics Laboratory I}{JHU}{}{}
 %% ...
 %% A publications list
-\newpage
-\section{Conferences, Workshops, Seminars}
-* = \textit{Invited}, Hyperlinks to PDF of slides on topic\\
-\cvitemwithcomment{\href{https://cyril-creque.github.io/files/talks/4PT_dCS.pdf}{Seminar*}}{Joint Tufts/MIT Cosmology Seminar}{Feb. 2023}
-\cvitemwithcomment{\href{https://cyril-creque.github.io/files/talks/4PT_dCS.pdf}{Seminar*}}{Brown University IDEA Seminar}{Feb. 2023}
-\cvitemwithcomment{\href{https://cyril-creque.github.io/files/talks/dCS_UV_Completions.pdf}{Conference}}{National Society of Black Physicists Annual Conference}{Nov. 2022}
-\cvitemwithcomment{Workshop*}{Guest Expert, Cosmology Talks Parity-Violation Mini-Workshop}{Nov. 2022}
-\cvitemwithcomment{\href{https://cyril-creque.github.io/files/talks/4PT_dCS.pdf}{Seminar*}}{Imperial College London}{Nov. 2022}
-\cvitemwithcomment{\href{https://cyril-creque.github.io/files/talks/dCS_UV_Completions.pdf}{Talk*}}{Ohio State University Astroparticle Lunch Talk}{Sept. 2022}
-\cvitemwithcomment{\href{https://cyril-creque.github.io/files/talks/dCS_UV_Completions.pdf}{Talk}}{Princeton Universty/Institute of Advanced Study Lunch Series}{Sept. 2022}
-\cvitemwithcomment{\href{https://cyril-creque.github.io/files/talks/dCS_UV_Completions.pdf}{Workshop (Organizer)}}{NeXus Workshop}{Aug. 2022}
+\section{Selected Conferences, Workshops, Seminars}
+%\fontsize{9.5}{11}\selectfont
+*~=~\textit{Invited}, $^\dagger$~=~\textit{Organizer}
+\subsection*{2024}
+\cvitemwithcomment{Workshop}{\chref[mutedblue]{https://bccp-berkeley-2024-split.netlify.app/}{Cosmology in the Adriatic -- From PT to AI},}{July}
+\cvitemwithcomment{}{BCCP, Ruđer Bošković Institute, Faculty of Science in Split}{}
+\cvitemwithcomment{\chrefccs{talks/Cosmic_Magnetic_Shear_of_Blazars-PI.pdf}{Seminar*}}{Cosmology Group Meeting, Perimeter Institute}{July}
+\cvitemwithcomment{Program}{\chref[mutedblue]{https://www.kitp.ucsb.edu/activities/darkmatter24}{Dark Matter Theory, Simulation, \& Analysis in the Era of Large Surveys}, }{May-June}
+\cvitemwithcomment{}{Kavli Institute for Theoretical Physics (KITP), Affiliate}{}
+\cvitemwithcomment{Workshop}{\chref[mutedblue]{https://www.physics.columbia.edu/events/cancelledthe-future-dark-matter-topical-sessions-opportunities-and-challenges}{The Future of Dark Matter}, Columbia University/\chref[mutedblue]{https://gianfrancobertone.net/2024/04/30/future-of-dark-matter-brainstorming-workshop-at-cca/}{Flatiron Institute}}{April}
+\cvitemwithcomment{Symposium$^\dagger$}{\chref[mutedblue]{https://science.nrao.edu/science/meetings/2024/2024-future-of-science-symposium}{Caribbean Future of Science Symposium}}{March}
+\cvitemwithcomment{\chrefccs{talks/Cosmic_Magnetic_Shear_of_Blazars-KICP.pdf}{Seminar*}}{\chref[mutedblue]{https://astrophysics.uchicago.edu/events/event/2200/?past=y}{KICP Seminar}, University of Chicago}{January}
+%%%%%%%%%%%%%%%
+\subsection*{2023}
+%%%%%%%%%%%%%%%
+\cvitemwithcomment{\chrefccs{TaiwanPVT.pdf}{Workshop*}}{\chref[mutedblue]{https://events.asiaa.sinica.edu.tw/workshop/20231204/}{Large-Scale Parity Violation Workshop}, }{December}
+\cvitemwithcomment{}{Academia Sinica Institute of Astronomy \& Astrophysics (ASIAA)}{}
+\cvitemwithcomment{Workshop$^\dagger$}{\chref[mutedblue]{https://inspirehep.net/conferences/2690282}{Parity Violation from Home}}{October}
+\cvitemwithcomment{\chrefccs{talks/Cosmology_Talks.pdf}{Talk*}}{\chref[mutedblue]{https://www.youtube.com/watch?v=IxhbpfblhQQ}{Cosmology Talks}}{August}
+\cvitemwithcomment{\chrefccs{talks/EoIHBBStonyBrook.pdf}{Workshop*}}{\chref[mutedblue]{https://scgp.stonybrook.edu/archives/37154}{Ending Inflation \& the Hot Big Bang}, Stonybrook University}{June}
+\cvitemwithcomment{\chrefccs{talks/4PTdCS-ModifiedGravity.pdf}{Workshop*}}{\chref[mutedblue]{https://icasu.illinois.edu/modified-gravity/program}{Modified Gravity Program}, }{May}
+\cvitemwithcomment{}{Illinois Center for Advanced Studies of the Universe}{}
+\cvitemwithcomment{\chrefccs{talks/4PTdCS-FFPS.pdf}{Symposium*}}{\chref[mutedblue]{https://futurefaculty.princeton.edu/events/2023/future-faculty-symposium-physics}{Future Faculty Symposium in Physics}, Princeton University}{April} 
+\cvitemwithcomment{\chrefccs{talks/4PTdCS-Perimeter.pdf}{Seminar*}}{\chref[mutedblue]{https://perimeterinstitute.ca/events/parity-violation-gravity-new-constructions-and-inflationary-signals}{Quantum Gravity Seminar}, Perimeter Institute}{April}
+\cvitemwithcomment{\chrefccs{talks/MPA4PT.pdf}{Seminar*}}{\chref[mutedblue]{https://wwwmpa.mpa-garching.mpg.de/cosmo_seminars/}{Cosmology Seminar}, Max Planck Institute for Astrophysics}{April}
+\cvitemwithcomment{\chrefccs{talks/Tufts+MITCosmo2023.pdf}{Seminar*}}{\chref[mutedblue]{https://cosmos.phy.tufts.edu/joint-seminar/Spring-2023/}{Cosmology Seminar}, Tufts/MIT}{February}
+\cvitemwithcomment{\chrefccs{talks/4PT_dCS.pdf}{Seminar*}}{Brown University IDEA Seminar}{February}
+%%%%%%%%%%%%
+\subsection*{2022}
+%%%%%%%%%%%%%
+\cvitemwithcomment{\chrefccs{talks/NSBP_Conference_2022.pdf}{Conference}}{\chref[mutedblue]{https://nsbp.org/page/2022NSBPConferenceSummary}{NSBP Annual Conference}}{November}
+\cvitemwithcomment{Workshop*}{Guest Expert, \chref[mutedblue]{https://inspirehep.net/seminars/2170834}{Cosmology Talks Parity-Violation Mini-Workshop}}{November}
+\cvitemwithcomment{\chrefccs{talks/Imperial_College_Seminar.pdf}{Seminar*}}{\chref[mutedblue]{https://www.imperial.ac.uk/events/154733/theory-group-seminar-cyril-creque-sarbinowski-chern-simons-gravity-and-neutrino-self-interactions/}{Theory Group Seminar}, Imperial College London}{November}
+\cvitemwithcomment{\chrefccs{talks/OSU_Lunch_Talks.pdf}{Talk*}}{\chref[mutedblue]{https://ccapp.osu.edu/events/astroparticle-lunch-09302022}{AstroParticle Lunch}, The Ohio State University}{September}
+\cvitemwithcomment{\chrefccs{talks/PU-IAS_Lunch_Talks.pdf}{Talk}}{\chref[mutedblue]{https://www.ias.edu/sns/events/institute-advanced-studyprinceton-university-early-universecosmology-lunch-discussion-47}{Early Universe/Cosmology Lunch Discussion}, }{September}
+\cvitemwithcomment{}{Princeton Universty/Institute of Advanced Study}{}
+\cvitemwithcomment{\chrefccs{talks/NeXus_2022.pdf}{Workshop$^\dagger$}}{NeXus Workshop, CCA, Flatiron Institute}{August}
 %\cvitemwithcomment{}{Talk Title: Chern-Simons Gravity and Neutrino Self-Interactions}{}
-\cvitemwithcomment{Workshop}{Aspen Center for Physics}{May-June 2022}
-\cvitemwithcomment{\href{https://cyril-creque.github.io/files/talks/Electromagnetic_Charge.pdf}{Seminar*}}{Brown University}{March 2022}
+\cvitemwithcomment{Workshop}{\chref[mutedblue]{https://aspenphys.org/summer/past-workshops/}{Large-Scale Structure Cosmology beyond 2-Point Statistics}, }{May-June}
+\cvitemwithcomment{}{Aspen Center for Physics}{}
+\cvitemwithcomment{\chrefccs{talks/Electromagnetic_Charge.pdf}{Seminar*}}{Brown University}{March}
 %\cvitemwithcomment{}{Signatures of Electromagnetic Charge in the Universe}{}
-\cvitemwithcomment{Workshop}{NeXus Workshop}{June 2021}
+%%%%%%%%%%%%%%
+\subsection*{$t\leq$ 2021}
+%%%%%%%%%%%%%
+\cvitemwithcomment{Workshop}{\chref[mutedblue]{https://indico.flatironinstitute.org/event/2504/}{NeXus Workshop}, CCA, Flatiron Institute}{June 2021}
 %\cvitemwithcomment{}{Talk Title: High Energy Astrophysical Neutrinos (HEAN)}{}
-\cvitemwithcomment{Conference}{Pheno 2021}{May 2021}
-\cvitemwithcomment{Conference}{XIX International Workshop on Neutrino Telescopes
-}{Feb. 2021}
-\cvitemwithcomment{Conference}{Neutrino\ 2020}{Jun. 2020}
-\cvitemwithcomment{\href{https://cyril-creque.github.io/files/talks/EDGES_DM_2019.pdf}{Seminar*}}{Bowdoin College}{Nov. 2019}
+\cvitemwithcomment{Conference}{\chref[mutedblue]{https://indico.cern.ch/event/982783/}{Phenomenology 2021}}{May 2021}
+\cvitemwithcomment{Workshop}{\chref[mutedblue]{https://agenda.infn.it/event/24250/}{XIX International Workshop on Neutrino Telescopes}}{February 2021}
+\cvitemwithcomment{Conference}{\chref[mutedblue]{https://conferences.fnal.gov/nu2020/}{Neutrino\ 2020}}{June 2020}
+\cvitemwithcomment{\chrefccs{talks/EDGES_DM_2019.pdf}{Seminar*}}{\chref[mutedblue]{https://www.bowdoin.edu/physics/news-events/past-events/index.html}{Physics Seminar}, Bowdoin College}{November 2019}
 %\cvitemwithcomment{}{Talk Title: Direct Millicharge Dark Matter Cannot Explain the Anomalous EDGES Signal}{}
-\cvitemwithcomment{Conference}{National Society of Black Physicists Annual Conference}{Nov. 2019}
-\cvitemwithcomment{Conference}{Cosmic Controversies, Kavli Institute  for Cosmological Physics}{Oct. 2019}
-\cvitemwithcomment{Workshop}{Novel Ideas for Dark Matter, Princeton Center for Theoretical Science}{Jan. 2019}
-\cvitemwithcomment{\href{https://cyril-creque.github.io/files/talks/IDM_IM_2018.pdf}{Conference}}{National Society of Black Physicists Annual Conference}{Nov. 2018}
-%\cvitemwithcomment{}{Talk Title: Searching for Decaying and Annihilating Dark Matter with Line Intensity Mapping}{}
-\cvitemwithcomment{\href{https://cyril-creque.github.io/files/talks/IDM_IM_2018.pdf}{Conference}}{Identification of Dark Matter, Brown University}{Jul. 2018}
-%\cvitemwithcomment{}{Talk Title: Searching for Decaying Particles with Line Intensity Mapping}{}
-\cvitemwithcomment{Workshop}{Second Annual Line-Intensity Mapping Workshop (IM@Hopkins),}{Jul. 2017}
-\cvitemwithcomment{}{\phantom{Conference:}Johns Hopkins University}{}
-\cvitemwithcomment{Conference}{Neutrinos and Light Particles in Cosmology, }{Jun. 2016}
-\cvitemwithcomment{}{\phantom{Conference:\ \ }Berkeley Center for Cosmological Physics}{}
-\cvitemwithcomment{Conference}{National Society of Black Physicists Annual Conference}{Feb. 2015}
+\cvitemwithcomment{Conference}{\chref[mutedblue]{https://www.brown.edu/news/2019-11-13/nsbp}{NSBP Annual Conference}}{November 2019}
+\cvitemwithcomment{Conference}{\chref[mutedblue]{https://voices.uchicago.edu/cosmiccontroversies/}{Cosmic Controversies}, }{October 2019}
+\cvitemwithcomment{}{Kavli Institute  for Cosmological Physics (KICP)}{}
+\cvitemwithcomment{Symposium}{\chref[mutedblue]{https://sites.google.com/georgetown.edu/verarubinsymposium/home}{Symposium in Honor of the Legacy of Vera Rubin}, }{June 2019}
+\cvitemwithcomment{}{Georgetown University}{}
+\cvitemwithcomment{Workshop}{\chref[mutedblue]{https://pcts.princeton.edu/events/2019/novel-ideas-dark-matter-2019}{Novel Ideas for Dark Matter}, }{January 2019}
+\cvitemwithcomment{}{Princeton Center for Theoretical Science (PCTS)}{}
+\cvitemwithcomment{\chrefccs{talks/IDM_IM_2018.pdf}{Conference}}{NSBP Annual Conference}{November 2018}
+%\cvitemwithcomment{}{Talk Title: Searching for Decemberying and Annihilating Dark Matter with Line Intensity Mapping}{}
+\cvitemwithcomment{\chrefccs{talks/IDM_IM_2018.pdf}{Conference}}{\chref[mutedblue]{https://www.brown.edu/conference/IDM2018/conference-events}{Identification of Dark Matter}, Brown University}{July 2018}
+%\cvitemwithcomment{}{Talk Title: Searching for Decemberying Particles with Line Intensity Mapping}{}
+\cvitemwithcomment{Workshop}{Second Annual Line-Intensity Mapping Workshop (IM@Hopkins),}{July 2017}
+\cvitemwithcomment{}{Johns Hopkins University (JHU)}{}
+\cvitemwithcomment{Conference}{\chref[mutedblue]{http://bccp.berkeley.edu/neutrinocosmology2016/}{Neutrinos \& Light Particles in Cosmology}, }{June 2016}
+\cvitemwithcomment{}{Berkeley Center for Cosmological Physics (BCCP)}{}
+\cvitemwithcomment{Conference}{NSBP Annual Conference}{February 2015}
+\section{Professional Activities}
+\cvitemwithcomment{Referee}{Phys.~Rev.~D (2023--), Phys.~Rev.~Lett. (2023--)}{}
+\cvitemwithcomment{}{MNRAS (2022--), Philos.~Trans.~R.~Soc.~A (2024--)}{}
+\cvitemwithcomment{Leader}{NeXus }{2022-Present}
+\cvitemwithcomment{Organizer}{\chref[mutedblue]{https://www.simonsfoundation.org/event/particles-vs-new-probes-p-vs-np/}{Particles Vs. New Probes (P Vs. NP)}, Lead\ Organizer}{March 2025}
+\cvitemwithcomment{}{\chref[mutedblue]{https://science.nrao.edu/science/meetings/2024/2024-future-of-science-symposium}{Caribbean Future of Science Symposium}, SOC}{March 2024}
+\cvitemwithcomment{}{\chref[mutedblue]{https://inspirehep.net/conferences/2690282}{Parity Violation from Home}, Co-Organizer}{October 2023}
+\cvitemwithcomment{}{NeXus Workshop, Lead\ Organizer}{August 2022}
+\cvitemwithcomment{Review}{\chref[mutedblue]{https://www.gemfellowship.org/gem-fellowship-program/}{GEM Fellowship Program}}{November 2023}
+\cvitemwithcomment{Panelist}{}{}
 
+\hypersetup{urlcolor=mutedgreen}
 \nocite{*}
 \bibliography{inspire}
 \bibliographystyle{hunsrt}
 
+\section{References}
+
+\noindent
+\small
+\begin{tabular}{ccc}
+% Table for Ken Van Tilburg
+\begin{minipage}[t]{0.33\textwidth}
+\referenceentry{Ken Van Tilburg}{Postdoctoral Mentor}{New York University}{726 Broadway}{New York, NY 10003}{Tel: N/A}{\textcolor{mutedblue}{kenvt@nyu.edu}}
+\end{minipage}&
+
+% Table for Stephon Alexander
+\begin{minipage}[t]{0.4\textwidth}
+\referenceentry{Stephon Alexander}{Mentor}{Brown University}{182 Hope Street}{Providence, RI 02912}{Tel: +1 (215) 264-7096}{\textcolor{mutedblue}{stephon\_alexander@brown.edu}}
+\end{minipage}&
 
 
+% Table for Marc Kamionkowski
+\begin{minipage}[t]{0.33\textwidth}
+\referenceentry{Marc Kamionkowski}{Ph.D Advisor}{Johns Hopkins University}{3400 North Charles Street}{Baltimore, MD 21218}{Tel: +1 (410) 516-0373}{\textcolor{mutedblue}{kamion@jhu.edu}}
+\end{minipage}
+\end{tabular}
 \end{document}

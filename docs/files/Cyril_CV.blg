@@ -3,44 +3,89 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: Cyril_CV.aux
 The style file: hunsrt.bst
 Database file #1: inspire.bib
-You've used 11 entries,
+Repeated entry---line 188 of file inspire.bib
+ : @article{Creque-Sarbinowski:2023wmb
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 198 of file inspire.bib
+ : @article{Zhou:2022nmt
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 208 of file inspire.bib
+ : @article{Zhou:2022otw
+ :                      ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 219 of file inspire.bib
+ : @article{Alexander:2022cow
+ :                           ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 229 of file inspire.bib
+ : @article{Creque-Sarbinowski:2022mex
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 240 of file inspire.bib
+ : @article{Creque-Sarbinowski:2021nil
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 254 of file inspire.bib
+ : @article{Creque-Sarbinowski:2021xwh
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 267 of file inspire.bib
+ : @article{Creque-Sarbinowski:2020qhz
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 281 of file inspire.bib
+ : @article{Creque-Sarbinowski:2019mcm
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 295 of file inspire.bib
+ : @article{Creque-Sarbinowski:2018ebl
+ :                                    ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 309 of file inspire.bib
+ : @article{Creque-Sarbinowski:2016wue
+ :                                    ,
+I'm skipping whatever remains of this entry
+You've used 14 entries,
             2350 wiz_defined-function locations,
-            651 strings with 6383 characters,
-and the built_in function-call counts, 3269 in all, are:
-= -- 308
-> -- 145
+            685 strings with 7192 characters,
+and the built_in function-call counts, 4883 in all, are:
+= -- 469
+> -- 184
 < -- 0
-+ -- 52
-- -- 41
-* -- 354
-:= -- 390
-add.period$ -- 11
-call.type$ -- 11
-change.case$ -- 11
++ -- 66
+- -- 52
+* -- 527
+:= -- 534
+add.period$ -- 14
+call.type$ -- 14
+change.case$ -- 14
 chr.to.int$ -- 0
-cite$ -- 11
-duplicate$ -- 200
-empty$ -- 269
-format.name$ -- 41
-if$ -- 791
+cite$ -- 14
+duplicate$ -- 316
+empty$ -- 410
+format.name$ -- 52
+if$ -- 1217
 int.to.chr$ -- 0
-int.to.str$ -- 11
-missing$ -- 39
-newline$ -- 36
-num.names$ -- 11
-pop$ -- 50
+int.to.str$ -- 14
+missing$ -- 54
+newline$ -- 45
+num.names$ -- 14
+pop$ -- 68
 preamble$ -- 1
-purify$ -- 82
+purify$ -- 104
 quote$ -- 0
-skip$ -- 138
+skip$ -- 248
 stack$ -- 0
-substring$ -- 64
-swap$ -- 87
+substring$ -- 130
+swap$ -- 168
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 17
-width$ -- 13
-write$ -- 85
+while$ -- 26
+width$ -- 16
+write$ -- 112
+(There were 11 error messages)

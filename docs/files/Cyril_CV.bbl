@@ -1,18 +1,43 @@
 \providecommand{\href}[2]{#2}\begingroup\raggedright\begin{thebibliography}{10}
 
+\bibitem{Alexander:2024vav}
+S.~Alexander, H.~Bernardo, and \textbf{C.~Creque-Sarbinowski}, ``{Nontriviality
+  of dynamical Chern-Simons gravity and the standard model},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.110.025015}{{\em Phys. Rev. D}
+  {\bfseries 110} no.~2, (2024) 025015},
+  \href{http://arxiv.org/abs/2403.15657}{{\ttfamily arXiv:2403.15657
+  [hep-th]}}.
+
+\bibitem{Alexander:2023flr}
+S.~Alexander, \textbf{C.~Creque-Sarbinowski}, H.~Gilmer, and K.~Freese,
+  ``{Higgs Inflation and the Electroweak Gauge Sector},''
+  \href{http://arxiv.org/abs/2306.04671}{{\ttfamily arXiv:2306.04671
+  [hep-ph]}}.
+
+\bibitem{Flitter:2023xql}
+J.~Flitter, \textbf{C.~Creque-Sarbinowski}, M.~Kamionkowski, and L.~Dai,
+  ``{Magnetic fields from compensated isocurvature perturbations},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.107.103536}{{\em Phys. Rev. D}
+  {\bfseries 107} no.~10, (2023) 103536},
+  \href{http://arxiv.org/abs/2304.03299}{{\ttfamily arXiv:2304.03299
+  [astro-ph.CO]}}.
+
 \bibitem{Creque-Sarbinowski:2023wmb}
 \textbf{C.~Creque-Sarbinowski}, S.~Alexander, M.~Kamionkowski, and O.~Philcox,
-  ``{Parity-Violating Trispectrum from Chern-Simons Gravity},''
+  ``{Parity-violating trispectrum from Chern-Simons gravity},''
+  \href{http://dx.doi.org/10.1088/1475-7516/2023/11/029}{{\em JCAP
+  \textbf{(20th Anniversary Special Issue)}} {\bfseries 11} (2023) 029},
   \href{http://arxiv.org/abs/2303.04815}{{\ttfamily arXiv:2303.04815
   [astro-ph.CO]}}.
 
 \bibitem{Zhou:2022nmt}
 B.~Zhou, L.~Reali, E.~Berti, M.~\c{C}al\i{}\c{s}kan,
   \textbf{C.~Creque-Sarbinowski}, M.~Kamionkowski, and B.~S. Sathyaprakash,
-  ``{Subtracting Compact Binary Foregrounds to Search for Subdominant
-  Gravitational-Wave Backgrounds in Next-Generation Ground-Based
-  Observatories},'' \href{http://arxiv.org/abs/2209.01310}{{\ttfamily
-  arXiv:2209.01310 [gr-qc]}}.
+  ``{Subtracting compact binary foregrounds to search for subdominant
+  gravitational-wave backgrounds in next-generation ground-based
+  observatories},'' \href{http://dx.doi.org/10.1103/PhysRevD.108.064040}{{\em
+  Phys. Rev. D} {\bfseries 108} no.~6, (2023) 064040},
+  \href{http://arxiv.org/abs/2209.01310}{{\ttfamily arXiv:2209.01310 [gr-qc]}}.
 
 \bibitem{Zhou:2022otw}
 B.~Zhou, L.~Reali, E.~Berti, M.~\c{C}al\i{}\c{s}kan,
@@ -22,14 +47,18 @@ B.~Zhou, L.~Reali, E.~Berti, M.~\c{C}al\i{}\c{s}kan,
   arXiv:2209.01221 [gr-qc]}}.
 
 \bibitem{Alexander:2022cow}
-S.~Alexander and \textbf{C.~Creque-Sarbinowski}, ``{Chern-Simons Gravity and
-  Neutrino Self-Interactions},''
+S.~Alexander and \textbf{C.~Creque-Sarbinowski}, ``{UV completions of
+  Chern-Simons gravity},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.108.104046}{{\em Phys. Rev. D}
+  {\bfseries 108} no.~10, (2023) 104046},
   \href{http://arxiv.org/abs/2207.05094}{{\ttfamily arXiv:2207.05094
   [hep-ph]}}.
 
 \bibitem{Creque-Sarbinowski:2022mex}
-\textbf{C.~Creque-Sarbinowski}, J.~Hyde, and M.~Kamionkowski, ``{High-Energy
-  Astrophysical Neutrinos from Cosmic Strings},''
+\textbf{C.~Creque-Sarbinowski}, J.~Hyde, and M.~Kamionkowski, ``{High-energy
+  astrophysical neutrinos from cosmic strings},''
+  \href{http://dx.doi.org/10.1103/PhysRevD.107.123019}{{\em Phys. Rev. D}
+  {\bfseries 107} no.~12, (2023) 123019},
   \href{http://arxiv.org/abs/2206.06377}{{\ttfamily arXiv:2206.06377
   [hep-ph]}}.
 
