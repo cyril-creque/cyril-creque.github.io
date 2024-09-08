@@ -1,4 +1,4 @@
-This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2018.12.25)  7 SEP 2024 16:11
+This is LuaTeX, Version beta-0.80.0 (TeX Live 2015) (rev 5238)  (format=lualatex 2018.12.25)  8 SEP 2024 15:15
  restricted \write18 enabled.
 **Cyril_CV.tex
 (./Cyril_CV.tex
@@ -427,7 +427,7 @@ Inserting `luaotfload.aux.set_capheight' at position 3 in `luaotfload.patch_font
 '.
 Inserting `luaotfload.rewrite_fontname' at position 4 in `luaotfload.patch_font'
 .
-luaotfload | main : initialization completed in 0.048 seconds)
+luaotfload | main : initialization completed in 0.073 seconds)
 Lua module: fontspec 2016/02/01 2.5a Advanced font selection for LuaLaTeX.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/fontspec/fontspec-luatex.sty
 Package: fontspec-luatex 2016/02/01 v2.5a Font selection for XeLaTeX and LuaLaTe
@@ -912,7 +912,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip82
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 51.
+Package hyperref Info: Option `colorlinks' set `true' on input line 61.
 \c@bibcount=\count144
 
 
@@ -922,11 +922,11 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.68 \begin{document}
+l.78 \begin{document}
                    
 ? 
-Package hyperref Info: Option `breaklinks' set `true' on input line 68.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 68.
+Package hyperref Info: Option `breaklinks' set `true' on input line 78.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 78.
 (./Cyril_CV.aux
 
 ! Package natbib Error: Bibliography not compatible with author-year citations.
@@ -944,28 +944,28 @@ l.47 ...ommand\NAT@force@numbers{}\NAT@force@numbers
 )
 \openout1 = Cyril_CV.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 68.
-LaTeX Font Info:    Try loading font information for T3+cmr on input line 68.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for EU2/lmr/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for T3/cmr/m/n on input line 78.
+LaTeX Font Info:    Try loading font information for T3+cmr on input line 78.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/tipa/t3cmr.fd
 File: t3cmr.fd 2001/12/31 TIPA font definitions
 )
-LaTeX Font Info:    ... okay on input line 68.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 68.
-LaTeX Font Info:    ... okay on input line 68.
+LaTeX Font Info:    ... okay on input line 78.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 78.
+LaTeX Font Info:    ... okay on input line 78.
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -994,7 +994,7 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
-LaTeX Info: Redefining \microtypecontext on input line 68.
+LaTeX Info: Redefining \microtypecontext on input line 78.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1047,7 +1047,7 @@ rn Roman (RS)
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \AtBeginShipoutBox=\box45
-Package hyperref Info: Link coloring ON on input line 68.
+Package hyperref Info: Link coloring ON on input line 78.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -1056,9 +1056,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count151
 )
-LaTeX Info: Redefining \ref on input line 68.
-LaTeX Info: Redefining \pageref on input line 68.
-LaTeX Info: Redefining \nameref on input line 68.
+LaTeX Info: Redefining \ref on input line 78.
+LaTeX Info: Redefining \pageref on input line 78.
+LaTeX Info: Redefining \nameref on input line 78.
 
 (./Cyril_CV.out) (./Cyril_CV.out)
 \@outlinefile=\write3
@@ -1404,7 +1404,7 @@ Package microtype Info: Character `textless ' is missing
 Package microtype Info: Character `textgreater ' is missing
 (microtype)             in font `EU2/FontAwesome(0)/m/n/9'.
 (microtype)             Ignoring protrusion settings for this character.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 69.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 79.
  (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1412,29 +1412,29 @@ File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 RS)
 )
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 69.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 79.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 69.
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 79.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 69.
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 79.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 69.
+(Font)              <10> on input line 79.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 69.
+(Font)              <7> on input line 79.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 69.
+(Font)              <5> on input line 79.
 
-Underfull \hbox (badness 10000) in paragraph at lines 69--69
+Underfull \hbox (badness 10000) in paragraph at lines 79--79
 
  []
 
@@ -1449,46 +1449,46 @@ oad luc: /usr/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmroma
 n12-regular.luc)
 
 LaTeX Font Warning: Font shape `EU2/LatinModernRoman(0)/sb/n' undefined
-(Font)              using `EU2/LatinModernRoman(0)/m/n' instead on input line 10
+(Font)              using `EU2/LatinModernRoman(0)/m/n' instead on input line 11
 3.
 
 luaotfload | load : Lookup/name: "LatinModernRoman" -> "lmroman7-regular.otf"(lo
 ad luc: /usr/local/texlive/2015/texmf-var/luatex-cache/generic/fonts/otf/lmroman
 7-regular.luc)
-Underfull \hbox (badness 10000) detected at line 103
-\EU2/LatinModernRoman(0)/m/n/7 .
- []
-
-luaotfload | load : Lookup/name: "LatinModernRoman" -> "lmroman12-regular.otf"
 Underfull \hbox (badness 10000) detected at line 113
 \EU2/LatinModernRoman(0)/m/n/7 .
  []
 
+luaotfload | load : Lookup/name: "LatinModernRoman" -> "lmroman12-regular.otf"
+Underfull \hbox (badness 10000) detected at line 123
+\EU2/LatinModernRoman(0)/m/n/7 .
+ []
 
-Underfull \hbox (badness 10000) detected at line 128
+
+Underfull \hbox (badness 10000) detected at line 138
 \EU2/LatinModernRoman(0)/m/n/7 .
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 143.
+(hyperref)                removing `math shift' on input line 153.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\leq' on input line 143.
+(hyperref)                removing `\leq' on input line 153.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 143.
+(hyperref)                removing `math shift' on input line 153.
 
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 143.
+(Font)              <12> on input line 153.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 143.
+(Font)              <8> on input line 153.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 143.
+(Font)              <6> on input line 153.
 
-Underfull \hbox (badness 10000) detected at line 143
+Underfull \hbox (badness 10000) detected at line 153
 \EU2/LatinModernRoman(0)/m/n/7 .
  []
 
@@ -1514,33 +1514,33 @@ Package microtype Info: Loading generic settings for font family
 luaotfload | load : Lookup/name: "LatinModernRoman" -> "lmroman10-bolditalic.otf
 " [3])
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 188.
+(Font)              <9> on input line 198.
 
-Underfull \hbox (badness 10000) in paragraph at lines 191--192
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 196--197
+Underfull \hbox (badness 10000) in paragraph at lines 201--202
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--203
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 205.
 
-Overfull \hbox (26.88675pt too wide) in paragraph at lines 186--205
+Underfull \hbox (badness 10000) in paragraph at lines 212--213
+
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 215.
+
+Overfull \hbox (26.88675pt too wide) in paragraph at lines 196--215
 [][] 
  []
 
 [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 205.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 215.
  (./Cyril_CV.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 205.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 205.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 215.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 215.
 Package rerunfilecheck Info: File `Cyril_CV.out' has not changed.
 (rerunfilecheck)             Checksum: 5F63E149FED2C517FCAC385705454353;725.
 
@@ -1555,10 +1555,10 @@ Here is how much of LuaTeX's memory you used:
  404 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 attribute, 59 glue_spec, 3 attribute_list
 , 5 action, 1 write nodes
-   avail lists: 1:3,2:2391,3:357,4:2090,5:277,6:3040,7:418,8:59,9:855,10:325
+   avail lists: 1:3,2:2399,3:358,4:2095,5:277,6:3040,7:418,8:60,9:855,10:325
  26213 multiletter control sequences out of 65536+600000
  67 fonts using 5589639 bytes
- 59i,18n,69p,1784b,502s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 59i,18n,69p,1784b,504s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman9-bold.otf><
 /usr/local/texlive/2015/texmf-dist/fonts/opentype/public/lm/lmroman10-bolditalic
 .otf></Users/cyrilcs/Library/Fonts/lmmono10-regular.otf></usr/local/texlive/2015
@@ -1576,10 +1576,10 @@ xmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf><</usr/local/texlive/2015/t
 exmf-dist/fonts/type1/public/lm/lmmi12.pfb><</usr/local/texlive/2015/texmf-dist/
 fonts/type1/public/lm/lmsy10.pfb><</usr/local/texlive/2015/texmf-dist/fonts/type
 1/public/lm/lmsy7.pfb>
-Output written on Cyril_CV.pdf (4 pages, 107186 bytes).
+Output written on Cyril_CV.pdf (4 pages, 107274 bytes).
 
-PDF statistics: 400 PDF objects out of 1000 (max. 8388607)
- 240 compressed objects within 3 object streams
+PDF statistics: 403 PDF objects out of 1000 (max. 8388607)
+ 241 compressed objects within 3 object streams
  31 named destinations out of 1000 (max. 131072)
  97 words of extra memory for PDF output out of 10000 (max. 10000000)
 
