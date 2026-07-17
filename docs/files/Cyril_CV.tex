@@ -1,16 +1,20 @@
 \PassOptionsToPackage{pdfpagelabels=false}{hyperref}
 \documentclass[10pt,a4paper, roman]{moderncv}
-\usepackage{verbatim, xcolor}
+\usepackage{verbatim, fontspec, xcolor}
 %% ModernCV themes
 
 \moderncvcolor{black}
 \moderncvstyle{banking}
+%\renewcommand*{\namestyle}[1]{\textcolor{black}{#1}}
+%\colorlet{color1}{black}
+%\colorlet{color2}{black}
+
 \setmainfont{Latin Modern Roman}
 \renewcommand{\familydefault}{\rmdefault}
 \nopagenumbers{}
 \usepackage[square,sort,comma]{natbib}
 %% Character encoding
-\usepackage[utf8]{inputenc}
+%\usepackage[utf8]{inputenc}
 
 %% Adjust the page margins
 \usepackage[scale=0.75]{geometry}
@@ -18,6 +22,7 @@
 %\usepackage[T1]{fontenc}
 %\renewcommand{\rmdefault}{lmodern}
 %\renewcommand{\itdefault}{cm}
+
 
 % Redefine cvitemwithcomment to use fixed and flexible columns 
 \usepackage{tabularx}
@@ -58,6 +63,7 @@
 \definecolor{mutedblue}{RGB}{20, 40, 160}
 \definecolor{mutedred}{RGB}{160, 76, 83}
 \definecolor{mutedgreen}{RGB}{34, 110, 80}
+%\usepackage[hidelinks,hyperfootnotes=false]{hyperref}
 \hypersetup{colorlinks=true, linkcolor=mutedblue, filecolor=cyan, urlcolor=mutedblue}
 
 
@@ -66,12 +72,15 @@
 %Shortcut for referring to myy github page.
 \newcommand{\chrefccs}[2]{\chref[mutedred]{https://cyril-creque.github.io/files/#1}{#2}}
 \newcounter{bibcount}
+
+
+
 %% Personal data
-\firstname{Cyril}
-\familyname{Creque-Sarbinowski}
-\address{30-60 48th Street Unit 3C}{Astoria, NY 11103} 
+\firstname{}
+\familyname{Cyril Creque-Sarbinowski}
+\address{119 North College Ave \#2}{Claremont, CA 91711} 
 \mobile{+1~(216)~282-4561}
-\email{ccreque@flatironinstitute.org} 
+\email{ccsb2025@pomona.edu} 
 %%------------------------------------------------------------------------------
 %% Content
 %%------------------------------------------------------------------------------
@@ -82,15 +91,17 @@
 \textcolor{mutedblue}{\rule{0.5cm}{0.2cm}} \textcolor{black}{External Resource}
 \hspace{0.8cm}
 \textcolor{mutedred}{\rule{0.5cm}{0.2cm}} \textcolor{black}{Slides/Notes}
-\hspace{0.8cm}
-\textcolor{mutedgreen}{\rule{0.5cm}{0.2cm}} \textcolor{black}{Paper}
+%\hspace{0.8cm}
+%\textcolor{mutedgreen}{\rule{0.5cm}{0.2cm}} \textcolor{black}{Paper}
 \end{center}
 \section{Education}
 \cventry{2017-2022}{Ph.D in Physics \& Astronomy}{Johns Hopkins University (JHU)}{Baltimore, MD}{}{Advisor: Marc Kamionkowski}  % arguments 3 to 6 can be left empty
 \cventry{2013-2017}{B.S. in Physics \& Mathematics}{Massachusetts Institute of Technology (MIT)}{Cambridge, MA}{}{}  % arguments 3 to 6 can be left empty
 %% ...
 \section{Positions Held}
-\cventry{August 2022-Present}{Flatiron Research Fellow}{Center for Computational Astrophysics (CCA)}{New York, NY}{}{}
+\cventry{July 2026-Present}{Assistant Professor of Physics \& Astronomy}{Pomona College}{Claremont, CA}{}{}
+\cventry{August 2025-July 2026}{Dark Universe Science Center (DUSC)-Simons Postdoctoral Fellow}{University of Washington (UW)}{Seattle, WA}{}{}
+\cventry{August 2022-August 2025}{Flatiron Research Fellow}{Center for Computational Astrophysics (CCA)}{New York, NY}{}{}
 \cventry{September 2022- September 2024}{Visiting Scholar}{New York University (NYU)}{New York, NY}{}{}
 \section{Awards, Scholarships, Fellowships}
 \cventry{2019-2022}{Graduate Research Fellow}{National Science Foundation}{}{}{}
@@ -98,7 +109,12 @@
 \cventry{2017-2019}{Fellow}{JHU Kelly Miller Fellowship}{}{}{}
 %% ...
 \section{Teaching/Outreach}
-\cventry{March 2024-Present}{Chief Facilitator \& Mentor, Developed Curriculum \chref[mutedred]{https://nbviewer.org/github/cyril-creque/cyril-creque.github.io/blob/gh-pages/docs/files/teaching/Exerc_w_Sol.ipynb?flush_cache=true}{[Sample Exercise]}}{\chref[mutedblue]{https://soundplusscience.com/about-us/}{Sound Plus Science}}{Civic Hall}{}{}
+\cventry{Fall 2026}{Instructor}{\chref[mutedblue]{https://catalog.pomona.edu/courses/PHYS170\%20PO/general-course-overview-aoYks}{PHYS170: Quantum Mechanics}}{Pomona College}{}{}{}{}
+\cventry{Fall 2026}{Instructor}{\chref[mutedblue]{https://catalog.pomona.edu/courses/PHYS041\%20PO/general-course-overview-aoYks}{PHYS041: General Physics with Laboratory}}{Pomona College}{}{}{}{}
+\cventry{August 2025}{Panelist}{\chref[mutedblue]{https://www.simonsfoundation.org/event/riffing-between-math-and-jazz/}{Riffing Between Math and Jazz}}{Simons Foundation Presents}{}{}{}{}
+\cventry{July 2025}{\chrefccs{talks/SBU_Scholars_Talk.pdf}{Guest Speaker}}{Exploring Scientific Pathways}{Stony Brook Simons STEM Scholars}{}{}{}{}
+\cventry{April 2025}{\chrefccs{talks/NJSM_Lecture.pdf}{Public Talk}}{\chref[mutedblue]{https://www.instagram.com/p/DIRcTV2M4R-/}{Science under the Stars}}{New Jersey State Museum Planetarium}{}{}{}{}
+\cventry{March 2024-July 2025}{Chief Facilitator \& Mentor, Developed Curriculum \chref[mutedred]{https://nbviewer.org/github/cyril-creque/cyril-creque.github.io/blob/gh-pages/docs/files/teaching/Exerc_w_Sol.ipynb?flush_cache=true}{[Sample Exercise]}}{\chref[mutedblue]{https://soundplusscience.com/about-us/}{Sound Plus Science}}{Civic Hall}{}{}
 \cventry{September 2023, 2024}{Flatiron Institute Booth Staff}{\chref[mutedblue]{https://www.gemfellowship.org/about-the-annual-conference/}{GEM Annual Conference}}{}{}{}{}
 \cventry{May 2023}{\chrefccs{teaching/Hunter_College_Guest_Lecture.pdf}{Guest Lecturer}}{\chref[mutedblue]{https://hunter-undergraduate.catalog.cuny.edu/courses/0227801}{ASTRO 10000: Basic Concepts in Astronomy}}{Hunter College}{}{}
 \cventry{Spring 2022}{\chrefccs{teaching/Moravian_PHYS111_Mechanics_SHO.pdf}{Virtual Guest Lecturer}}{\chref[mutedblue]{https://www.moravian.edu/catalog/courses/physics-and-earth-science}{PHYS 111: Introductory Physics}}{Moravian University}{}{}
@@ -110,7 +126,18 @@
 \section{Selected Conferences, Workshops, Seminars}
 %\fontsize{9.5}{11}\selectfont
 *~=~\textit{Invited}, $^\dagger$~=~\textit{Organizer}
+\subsection{2026}
+\cvitemwithcomment{\chrefccs{talks/Spurions_IPMU_2026.pdf}{Workshop*}}{\chref[mutedblue]{https://indico.ipmu.jp/event/492/}{JHU/IPMU: Quantum Field Theory, Particle Physics and Cosmology},}{May}
+\cvitemwithcomment{}{Kavli Institute for the Physics and Mathematics of the Universe (IPMU)}{}
+\cvitemwithcomment{Symposium$^\dagger$}{Caribbean Future of Science Symposium}{March}
+\subsection{2025}
+\cvitemwithcomment{\chrefccs{talks/Haverford_Colloquium.pdf}{Colloquium*}}{Haverford}{August}
+\cvitemwithcomment{\chrefccs{talks/KCFest_2025.pdf}{Workshop*}}{\chref[mutedblue]{https://indico.global/event/14235/overview}{Cosmology Summer Fest}}{July}
+\cvitemwithcomment{Symposium$^\dagger$}{\chref[mutedblue]{https://sta.uwi.edu/principal/second-caribbean-future-of-science-symposium/}{Caribbean Future of Science Symposium}}{March}
+\cvitemwithcomment{\chrefccs{talks/Cosmic_Magnetic_Shear_of_Blazars-Princeton.pdf}{Seminar*}}{\chref[mutedblue]{https://phy.princeton.edu/events/dark-cosmos-seminar-318-4-pm-cyril-creque-sarbinowski-center-computational-astrophysics}{Dark Cosmos Seminar}}{March}
 \subsection{2024}
+\cvitemwithcomment{\chrefccs{talks/Cosmic_Magnetic_Shear_of_Blazars-Tufts.pdf}{Seminar*}}{\chref{https://cosmos.phy.tufts.edu/joint-seminar/Fall-2024/poster-7.pdf}{Joint Tufts/MIT Cosmology Seminar}}{October}
+\cvitemwithcomment{\chrefccs{talks/Cosmic_Magnetic_Shear_of_Blazars-Tufts.pdf}{Seminar*}}{\chref{https://events.brown.edu/event/299709-the-brown-theoretical-physics-center-special}{The Brown Theoretical Physics Center Special Seminar}}{October}
 \cvitemwithcomment{Workshop}{\chref[mutedblue]{https://bccp-berkeley-2024-split.netlify.app/}{Cosmology in the Adriatic -- From PT to AI},}{July}
 \cvitemwithcomment{}{BCCP, Ruđer Bošković Institute, Faculty of Science in Split}{}
 \cvitemwithcomment{\chrefccs{talks/Cosmic_Magnetic_Shear_of_Blazars-PI.pdf}{Seminar*}}{Cosmology Group Meeting, Perimeter Institute}{July}
@@ -180,8 +207,8 @@
 \cvitemwithcomment{}{MNRAS (2022--), Philos.~Trans.~R.~Soc.~A (2024--)}{}
 \cvitemwithcomment{Facilitator}{NeXus, Lead Organizer and Mentor}{2022-Present}
 \cvitemwithcomment{Organizer}{\chref[mutedblue]{https://www.simonsfoundation.org/event/particles-vs-new-probes-p-vs-np/}{Particles Vs. New Probes (P Vs. NP)}, Lead\ Organizer}{March 2025}
-\cvitemwithcomment{}{\chref[mutedblue]{https://science.nrao.edu/science/meetings/2024/2024-future-of-science-symposium}{Caribbean Future of Science Symposium}, SOC}{March 2024, 2025}
-\cvitemwithcomment{}{\chref[mutedblue]{https://inspirehep.net/conferences/2690282}{Parity Violation from Home}, Co-Organizer}{Oct. 2023, Nov. 2024}
+\cvitemwithcomment{}{\chref[mutedblue]{https://science.nrao.edu/science/meetings/2024/2024-future-of-science-symposium}{Caribbean Future of Science Symposium}, SOC}{March 2024-2026}
+\cvitemwithcomment{}{\chref[mutedblue]{https://inspirehep.net/conferences/2690282}{Parity Violation from Home}, Co-Organizer}{Oct. 2023, Nov. 2024, Nov. 2025}
 \cvitemwithcomment{}{NeXus Workshop, Lead\ Organizer}{August 2022}
 \cvitemwithcomment{Review}{\chref[mutedblue]{https://www.gemfellowship.org/gem-fellowship-program/}{GEM Fellowship Program}}{November 2023, 2024}
 \cvitemwithcomment{Panelist}{}{}
