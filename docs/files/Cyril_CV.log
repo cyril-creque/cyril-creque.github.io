@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  23 JUL 2026 10:17
+This is LuaHBTeX, Version 1.21.0 (TeX Live 2025)  (format=lualatex 2025.3.8)  23 JUL 2026 12:21
  restricted system commands enabled.
 **Cyril_CV.tex
 (./Cyril_CV.tex
@@ -1048,40 +1048,40 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 
 LaTeX Font Warning: Font shape `TU/LatinModernRoman(0)/sb/n' undefined
 (Font)              using `TU/LatinModernRoman(0)/b/n' instead on input line 13
+1.
+
+
+Underfull \hbox (badness 10000) detected at line 131
+\TU/LatinModernRoman(0)/m/n/7 .
+ []
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernRoman(0)/sb/n' undefined
+(Font)              using `TU/LatinModernRoman(0)/b/n' instead on input line 13
+5.
+
+
+Underfull \hbox (badness 10000) detected at line 135
+\TU/LatinModernRoman(0)/m/n/7 .
+ []
+
+
+LaTeX Font Warning: Font shape `TU/LatinModernRoman(0)/sb/n' undefined
+(Font)              using `TU/LatinModernRoman(0)/b/n' instead on input line 14
 0.
 
 
-Underfull \hbox (badness 10000) detected at line 130
-\TU/LatinModernRoman(0)/m/n/7 .
- []
-
-
-LaTeX Font Warning: Font shape `TU/LatinModernRoman(0)/sb/n' undefined
-(Font)              using `TU/LatinModernRoman(0)/b/n' instead on input line 13
-4.
-
-
-Underfull \hbox (badness 10000) detected at line 134
-\TU/LatinModernRoman(0)/m/n/7 .
- []
-
-
-LaTeX Font Warning: Font shape `TU/LatinModernRoman(0)/sb/n' undefined
-(Font)              using `TU/LatinModernRoman(0)/b/n' instead on input line 13
-9.
-
-
-Underfull \hbox (badness 10000) detected at line 139
+Underfull \hbox (badness 10000) detected at line 140
 \TU/LatinModernRoman(0)/m/n/7 .
  []
 
 
 LaTeX Font Warning: Font shape `TU/LatinModernRoman(0)/sb/n' undefined
 (Font)              using `TU/LatinModernRoman(0)/b/n' instead on input line 15
-1.
+2.
 
 
-Underfull \hbox (badness 10000) detected at line 151
+Underfull \hbox (badness 10000) detected at line 152
 \TU/LatinModernRoman(0)/m/n/7 .
  []
 
@@ -1091,61 +1091,61 @@ Underfull \hbox (badness 10000) detected at line 151
 
 LaTeX Font Warning: Font shape `TU/LatinModernRoman(0)/sb/n' undefined
 (Font)              using `TU/LatinModernRoman(0)/b/n' instead on input line 16
-6.
+7.
 
 
-Underfull \hbox (badness 10000) detected at line 166
+Underfull \hbox (badness 10000) detected at line 167
 \TU/LatinModernRoman(0)/m/n/7 .
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 181.
+(hyperref)                removing `math shift' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\leq' on input line 181.
+(hyperref)                removing `\leq' on input line 182.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 181.
+(hyperref)                removing `math shift' on input line 182.
 
 
 LaTeX Font Warning: Font shape `TU/LatinModernRoman(0)/sb/n' undefined
 (Font)              using `TU/LatinModernRoman(0)/b/n' instead on input line 18
-1.
+2.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 181.
+(Font)              <12> on input line 182.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 181.
+(Font)              <8> on input line 182.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 181.
+(Font)              <6> on input line 182.
 
-Underfull \hbox (badness 10000) detected at line 181
+Underfull \hbox (badness 10000) detected at line 182
 \TU/LatinModernRoman(0)/m/n/7 .
  []
 
 No file Cyril_CV.bbl.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 226.
+(Font)              <9> on input line 227.
 
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
+Underfull \hbox (badness 10000) in paragraph at lines 230--231
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 235--236
 
  []
 
 
-Overfull \hbox (26.88675pt too wide) in paragraph at lines 224--243
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
+
+ []
+
+
+Overfull \hbox (26.88675pt too wide) in paragraph at lines 225--244
 [] 
  []
 
@@ -1172,7 +1172,7 @@ Here is how much of LuaTeX's memory you used:
  608 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 5 attribute, 87 glue_spec,
  5 attribute_list, 2 write nodes
-   avail lists: 1:3,2:3942,3:571,4:402,5:487,6:327,7:9128,8:2,9:3321,10:5,11:492
+   avail lists: 1:2,2:4114,3:599,4:402,5:503,6:343,7:9586,8:2,9:3469,10:5,11:531
 
  51919 multiletter control sequences out of 65536+600000
  70 fonts using 6278471 bytes
@@ -1191,7 +1191,7 @@ texmf-dist/fonts/opentype/public/lm/lmroman12-bold.otf></usr/local/texlive/2025/
 texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/local/texlive/2025/te
 xmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2025/texm
 f-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb>
-Output written on Cyril_CV.pdf (4 pages, 107691 bytes).
+Output written on Cyril_CV.pdf (4 pages, 107892 bytes).
 
 PDF statistics: 390 PDF objects out of 1000 (max. 8388607)
  210 compressed objects within 3 object streams
